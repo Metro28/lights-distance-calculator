@@ -1,0 +1,78 @@
+object Form1: TForm1
+  Left = 881
+  Height = 209
+  Top = 653
+  Width = 419
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Calculador de distancia entre luces'
+  ClientHeight = 209
+  ClientWidth = 419
+  LCLVersion = '4.2.0.0'
+  object Edit1: TEdit
+    Left = 24
+    Height = 23
+    Top = 40
+    Width = 80
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 24
+    Height = 15
+    Top = 24
+    Width = 85
+    Caption = 'Largo del techo:'
+  end
+  object Label2: TLabel
+    Left = 24
+    Height = 15
+    Top = 72
+    Width = 91
+    Caption = 'Tamaño de la luz:'
+  end
+  object Edit2: TEdit
+    Left = 24
+    Height = 23
+    Top = 88
+    Width = 80
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 184
+    Height = 23
+    Top = 88
+    Width = 32
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 24
+    Height = 25
+    Top = 120
+    Width = 75
+    Caption = 'Calcular'
+    TabOrder = 3
+    OnClick = Button1Click
+  end
+  object Label3: TLabel
+    Left = 24
+    Height = 1
+    Top = 152
+    Width = 1
+  end
+  object Label4: TLabel
+    Left = 112
+    Height = 15
+    Top = 96
+    Width = 61
+    Caption = '... cantidad:'
+  end
+  object Button2: TButton
+    Left = 112
+    Height = 25
+    Top = 120
+    Width = 75
+    Caption = 'Cerrar'
+    TabOrder = 4
+    OnClick = Button2Click
+  end
+end
